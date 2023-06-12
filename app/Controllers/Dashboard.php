@@ -2,9 +2,9 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Controller;
 
-
-class Home extends BaseController
+class Dashboard extends Controller
 {
     public function index()
     {
@@ -13,7 +13,7 @@ class Home extends BaseController
 
         echo view('layouts/v_sidebar');
         echo view('layouts/v_topbar');
-        echo view('home/index');
+        echo view('dashboard/index');
         echo view('layouts/v_footer');
     }
 }
