@@ -5,7 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\M_data;
 
-class Data extends Controller
+class Penduduk extends Controller
 {
     public function __construct()
     {
@@ -14,11 +14,11 @@ class Data extends Controller
     public function index()
     {
         $Model = new M_data();
-        $data = [
+        $penduduk = [
+            'penduduk' => $Model->penduduk(),
 
-            'data' => $Model->getAllData(),
 
         ];
-        Tampilan('data/index', $data);
+        Tampilan('dashboard/data/inputdata/inputpmks', $penduduk);
     }
 }

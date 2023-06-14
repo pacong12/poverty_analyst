@@ -18,7 +18,9 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                 Total Kecamatan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $total_kecamatan ?></div>
+
                                         </div>
 
                                         <div class="col-auto">
@@ -37,7 +39,9 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Total Kelurahan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $total_kelurahan ?></div>
+
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign  text-gray-300"></i>
@@ -56,7 +60,10 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Total PMKS</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $total_pmks ?></div>
+
+
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -73,7 +80,7 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Total Laki-Laki</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $total_laki ?></div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -89,7 +96,7 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Total Perempuan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $total_perempuan ?></div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
