@@ -6,7 +6,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3"><?= $judul ?></div>
     </a>
 
     <!-- Divider -->
@@ -37,8 +37,8 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <!-- <h6 class="collapse-header">Input Data</h6> -->
                 <a class="collapse-item" href="<?= base_url('penduduk') ?>">Data PMKS</a>
-                <a class="collapse-item" href="#">Wilayah</a>
-                <a class="collapse-item" href="#">Penduduk</a>
+                <a class="collapse-item" href="<?= base_url('tampil') ?>">Wilayah</a>
+                <a class="collapse-item" href="<?= base_url('fussy') ?>">Penduduk</a>
             </div>
         </div>
     </li>

@@ -14,6 +14,7 @@ class Dashboard extends Controller
     public function index()
     {
 
+
         $Model = new M_data();
         $All = [
             'penduduk' => $Model->penduduk(),
@@ -26,11 +27,6 @@ class Dashboard extends Controller
         ];
 
         // return view('welcome_message');
-        echo view('layouts/v_header');
-
-        echo view('layouts/v_sidebar');
-        echo view('layouts/v_topbar');
-        echo view('dashboard/index', $All);
-        echo view('layouts/v_footer');
+        Tampilan('dashboard/index', $All);
     }
 }

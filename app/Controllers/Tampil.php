@@ -3,10 +3,10 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\M_data;
 
+use App\Models\M_tampildata;
 
-class Data extends Controller
+class Tampil extends Controller
 {
     public function __construct()
     {
@@ -14,13 +14,13 @@ class Data extends Controller
     }
     public function index()
     {
-        $Model = new M_data();
 
+        $Tampildata = new M_tampildata();
         $data = [
+            'tampil' => $Tampildata->getAll(),
 
-            'data' => $Model->getAllData(),
 
         ];
-        Tampilan('data/index', $data);
+        Tampilan('dashboard/data/inputdata/index', $data);
     }
 }
