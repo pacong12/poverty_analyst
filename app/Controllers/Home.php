@@ -16,6 +16,6 @@ class Home extends BaseController
     {
 
         // return view('welcome_message');
-        Tampilan('home');
+        Tampilan('home/index');
     }
 }
