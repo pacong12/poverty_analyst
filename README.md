@@ -26,13 +26,13 @@ git clone https://github.com/pacong12/poverty_analyst
         'emailForgot'     => 'Myth\Auth\Views\emails\forgot',
         'emailActivation' => 'Myth\Auth\Views\emails\activation',
     ```
-    
-    menjadi 
+
+    menjadi
 
     ```php
         'login'           => 'App\Views\auth\login',
         'register'        => 'App\Views\auth\register',
         'forgot'          => 'App\Views\auth\forgot',
     ```
-    
+
 - Jalankan program dengan perintah `php spark serve`
